@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 10;
+    margin: 10;
+    font-family: monospace;
+  }
+
+.progress {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #d6d6d6;
+    border-radius: 5px;
+}
+
+.progress-done {
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.progress-done span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+}
+
+.inputcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.inputcontainer div {
+    flex: 1;
+}
+
+.inputcontainer h3 {
+    margin: 0;
+}
+
+.input, .maxInput {
+    width: 50%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 15px;
+}
+

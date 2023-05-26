@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>To-do Progress</title>
+    </head>
+    <body>
+        <div class="progress">
+            <div>
+                <h3>Task Name:
+                    <input class="headingInput" type="text" placeholder="Enter task heading"/>
+                </h3>
+            </div>
+            <h3>50%</h3>
+            <div class="progress-done quarterly-progress">
+                <span class="progress-text"></span>
+            </div>
+            <h3>Overall</h3>
+            <div class="progress-done max-progress">
+                <span class="progress-text"></span>
+            </div>
+            <div class="inputcontainer">
+                <div>
+                    <h3>Value</h3>
+                    <input class="input" type="number"/>
+                </div>
+                <div>
+                    <h3>Max Value</h3>
+                    <input class="maxInput" type="number"/>
+                </div>
+            </div>
+            <div>
+                <button id="incrementBtn">Increment</button>
+                <button id="decrementBtn">Decrement</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
